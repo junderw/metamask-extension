@@ -455,3 +455,7 @@ export function getSwapsEthToken(state) {
     }),
   };
 }
+
+export function getNextSuggestedNonce(state) {
+  return Number(state.metamask.nextNonce);
+}
