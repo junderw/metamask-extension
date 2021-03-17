@@ -1,6 +1,6 @@
 import { strict as assert } from 'assert';
-import migration54 from '../../../app/scripts/migrations/054';
 import { UI_NOTIFICATIONS } from '../../../shared/notifications';
+import migration54 from './054';
 
 describe('migration #54', function () {
   it('should update the version metadata', async function () {
