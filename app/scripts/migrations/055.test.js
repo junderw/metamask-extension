@@ -1,5 +1,4 @@
 import { strict as assert } from 'assert';
-import migration55 from '../../../app/scripts/migrations/055';
 import {
   GOERLI,
   GOERLI_CHAIN_ID,
@@ -12,6 +11,7 @@ import {
   ROPSTEN,
   ROPSTEN_CHAIN_ID,
 } from '../../../shared/constants/network';
+import migration55 from './055';
 
 describe('migration #55', function () {
   it('should update the version metadata', async function () {
